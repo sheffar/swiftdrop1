@@ -1,0 +1,146 @@
+main{
+    padding: 20px;
+}
+
+.parent{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 5px;
+    border-bottom: 2px solid lightgray;
+}
+
+.search{
+    flex: 1;
+    height: 100%;
+    position: relative;
+}
+
+.searchIcon{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding-left: 40px;
+}
+
+
+.bell{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.chickenSection{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.chicken{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.discount{
+    font-size:40px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 3px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.discountTitle{
+    display: flex;
+    padding: 10px;
+    background: rgb(62, 63, 62);
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white
+
+}
+
+.discounts{
+    font-size: 25px;
+}
+
+.addDiscounts{
+    padding: 10px;
+    background: white;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    color: green;
+    border-radius: 5px;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.discountCard{
+    display: flex;
+    background: white;
+    box-shadow: 3px 3px 3px lightgray;
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.off{
+    font-weight: 600;
+}
+
+.expired{
+    font-size: 11px;
+    color: gray;
+}
+
+.actions{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.edit{
+    padding-block: 5px;
+    padding-inline: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background: white;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background: red;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 50%;
+    width: 30px;
+}
